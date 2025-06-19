@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Logo } from "../logo /logo";
 
-export const Footer = () => {
+export function Footer() {
   return (
     <footer className="bg-gray-500">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
