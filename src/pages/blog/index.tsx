@@ -1,4 +1,13 @@
+import { Search } from "@/components/search/search";
+import { useRouter } from "next/router";
+
 export default function BlogPage() {
+  const router = useRouter();
+  const query = router.query.q as string;
+  const pageTitle = query
+    ? `Resultados de busca para "${query}"`
+    : 'Dicas e estratégias para impulsionar seu negócio';
+
   return (
     <div className="flex flex-col py-24 flex-grow h-full">
       <header className="">
@@ -11,13 +20,13 @@ export default function BlogPage() {
 
             {/* Titulo */}
             <h1 className="text-balance text-start md:text-left text-heading-lg md:text-heading-xl max-w-2xl text-gray-100">
-              Dicas e estratégias para impulsionar seu negócio
+              {pageTitle}
             </h1>
           </div>
+          {/* Search */}
+          <Search />
         </div>
       </header>
-
-      {/* Search */}
 
       {/* Listagem de posts */}
     </div>
