@@ -1,7 +1,7 @@
 ---
 title: As vantagens de ter uma loja online
 description: Descubra por que abrir uma loja online é uma das decisões mais inteligentes para quem quer crescer no mundo dos negócios digitais.
-date: 2024-11-22 11:30:00
+date: "2025-02-04"
 image: /assets/quarto-post.png
 author:
   name: Dulce Westervelt

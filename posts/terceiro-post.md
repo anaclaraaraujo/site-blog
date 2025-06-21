@@ -1,7 +1,7 @@
 ---
 title: Crie sua loja e comece a vender
 description: Com o Site.Set, você tira seu negócio do papel e coloca seus produtos na vitrine digital. Monte sua loja online em poucos cliques e comece a vender hoje mesmo.
-date: 2024-11-20 09:00:00
+date: "2025-02-03"
 image: /assets/terceiro-post.png
 author:
   name: Dulce Westervelt

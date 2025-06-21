@@ -1,0 +1,26 @@
+{
+  "title": "A jornada do empreendedorismo",
+  "date": "2025-04-20T00:00:00.000Z",
+  "description": "Empreender é um caminho cheio de desafios, mas também de grandes conquistas. Com o Site.Set, você tem um parceiro confiável nessa jornada.",
+  "image": "/assets/quinto-post.png",
+  "author": {
+    "name": "Dulce Westervelt",
+    "avatar": "/customer-03.png",
+    "type": "Author",
+    "_raw": {}
+  },
+  "body": {
+    "raw": "\nComeçar um negócio próprio é como embarcar em uma aventura: exige coragem, preparo e as ferramentas certas. O Site.Set está aqui para ser seu aliado nessa jornada empreendedora.\n\nVeja como te ajudamos no caminho:\n\n**Primeiros passos facilitados**: Desde a criação da loja até o primeiro pedido, estamos com você.\n\n**Autonomia para crescer**: Você decide como sua loja vai funcionar. Personalize e adapte conforme seu negócio evolui.\n\n**Recursos que escalam com você**: Começou pequeno? Sem problema. A plataforma acompanha seu crescimento.\n\n**Comunidade empreendedora**: Conte com histórias, dicas e suporte de quem já está nessa estrada.\n\n**Foco no que importa**: Menos burocracia, mais tempo para você cuidar do que realmente faz seu negócio girar.\n\nSe empreender é seu sonho, o Site.Set é o empurrãozinho (e o apoio) que faltava para torná-lo realidade.\n",
+    "html": "<p>Começar um negócio próprio é como embarcar em uma aventura: exige coragem, preparo e as ferramentas certas. O Site.Set está aqui para ser seu aliado nessa jornada empreendedora.</p>\n<p>Veja como te ajudamos no caminho:</p>\n<p><strong>Primeiros passos facilitados</strong>: Desde a criação da loja até o primeiro pedido, estamos com você.</p>\n<p><strong>Autonomia para crescer</strong>: Você decide como sua loja vai funcionar. Personalize e adapte conforme seu negócio evolui.</p>\n<p><strong>Recursos que escalam com você</strong>: Começou pequeno? Sem problema. A plataforma acompanha seu crescimento.</p>\n<p><strong>Comunidade empreendedora</strong>: Conte com histórias, dicas e suporte de quem já está nessa estrada.</p>\n<p><strong>Foco no que importa</strong>: Menos burocracia, mais tempo para você cuidar do que realmente faz seu negócio girar.</p>\n<p>Se empreender é seu sonho, o Site.Set é o empurrãozinho (e o apoio) que faltava para torná-lo realidade.</p>"
+  },
+  "_id": "quinto-post.md",
+  "_raw": {
+    "sourceFilePath": "quinto-post.md",
+    "sourceFileName": "quinto-post.md",
+    "sourceFileDir": ".",
+    "contentType": "markdown",
+    "flattenedPath": "quinto-post"
+  },
+  "type": "Post",
+  "slug": "quinto-post"
+}

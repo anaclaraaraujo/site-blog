@@ -1,7 +1,7 @@
 ---
 title: Como atrair consumidores
 description: Vender é importante, mas atrair o cliente certo é essencial. Descubra como destacar sua loja online e conquistar a atenção do público com estratégias práticas e eficazes.
-date: 2024-11-28 09:45:00
+date: "2025-05-20"
 image: /assets/sexto-post.png
 author:
   name: Dulce Westervelt

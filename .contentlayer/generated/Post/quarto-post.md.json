@@ -1,0 +1,26 @@
+{
+  "title": "As vantagens de ter uma loja online",
+  "date": "2025-02-04T00:00:00.000Z",
+  "description": "Descubra por que abrir uma loja online é uma das decisões mais inteligentes para quem quer crescer no mundo dos negócios digitais.",
+  "image": "/assets/quarto-post.png",
+  "author": {
+    "name": "Dulce Westervelt",
+    "avatar": "/customer-03.png",
+    "type": "Author",
+    "_raw": {}
+  },
+  "body": {
+    "raw": "\nTer uma loja online deixou de ser diferencial — virou necessidade. E mais do que acompanhar o mercado, você pode usá-la para escalar o seu negócio com inteligência.\n\nCom o **Site.Set**, essas vantagens ficam ainda mais claras:\n\n**Disponibilidade 24/7**: Sua loja nunca fecha. Clientes podem comprar enquanto você dorme.\n\n**Alcance nacional (ou global!)**: Vender para além do seu bairro? Com um e-commerce, isso é realidade.\n\n**Baixo investimento inicial**: Sem precisar de ponto físico, funcionários ou reformas caras.\n\n**Facilidade de análise de dados**: Saiba quem visita, o que procura e como melhorar sua performance.\n\n**Automatizações que economizam seu tempo**: De envio de e-mails até o controle de estoque, a tecnologia trabalha por você.\n\nVender online é ter liberdade para crescer. Com o Site.Set, sua loja virtual ganha estrutura e você ganha tranquilidade.\n",
+    "html": "<p>Ter uma loja online deixou de ser diferencial — virou necessidade. E mais do que acompanhar o mercado, você pode usá-la para escalar o seu negócio com inteligência.</p>\n<p>Com o <strong>Site.Set</strong>, essas vantagens ficam ainda mais claras:</p>\n<p><strong>Disponibilidade 24/7</strong>: Sua loja nunca fecha. Clientes podem comprar enquanto você dorme.</p>\n<p><strong>Alcance nacional (ou global!)</strong>: Vender para além do seu bairro? Com um e-commerce, isso é realidade.</p>\n<p><strong>Baixo investimento inicial</strong>: Sem precisar de ponto físico, funcionários ou reformas caras.</p>\n<p><strong>Facilidade de análise de dados</strong>: Saiba quem visita, o que procura e como melhorar sua performance.</p>\n<p><strong>Automatizações que economizam seu tempo</strong>: De envio de e-mails até o controle de estoque, a tecnologia trabalha por você.</p>\n<p>Vender online é ter liberdade para crescer. Com o Site.Set, sua loja virtual ganha estrutura e você ganha tranquilidade.</p>"
+  },
+  "_id": "quarto-post.md",
+  "_raw": {
+    "sourceFilePath": "quarto-post.md",
+    "sourceFileName": "quarto-post.md",
+    "sourceFileDir": ".",
+    "contentType": "markdown",
+    "flattenedPath": "quarto-post"
+  },
+  "type": "Post",
+  "slug": "quarto-post"
+}

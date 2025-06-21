@@ -1,7 +1,7 @@
 ---
 title: A jornada do empreendedorismo
 description: Empreender é um caminho cheio de desafios, mas também de grandes conquistas. Com o Site.Set, você tem um parceiro confiável nessa jornada.
-date: 2024-11-25 14:15:00
+date: "2025-04-20"
 image: /assets/quinto-post.png
 author:
   name: Dulce Westervelt

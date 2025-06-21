@@ -1,0 +1,26 @@
+{
+  "title": "Crie sua loja e comece a vender",
+  "date": "2025-02-03T00:00:00.000Z",
+  "description": "Com o Site.Set, você tira seu negócio do papel e coloca seus produtos na vitrine digital. Monte sua loja online em poucos cliques e comece a vender hoje mesmo.",
+  "image": "/assets/terceiro-post.png",
+  "author": {
+    "name": "Dulce Westervelt",
+    "avatar": "/customer-03.png",
+    "type": "Author",
+    "_raw": {}
+  },
+  "body": {
+    "raw": "\nVocê já pensou em vender seus produtos pela internet, mas não sabia por onde começar? Com o **Site.Set**, você dá o primeiro passo de forma simples e prática. Nossa plataforma foi feita para empreendedores como você: que querem agilidade, autonomia e resultado.\n\nVeja por onde começar:\n\n**Criação em minutos**: Escolha um modelo, personalize e publique. Sua loja pronta sem dor de cabeça.\n\n**Domínio próprio**: Dê um toque profissional à sua marca com um domínio personalizado.\n\n**Cadastro de produtos intuitivo**: Adicione fotos, descrições e preços com facilidade. Tudo muito visual.\n\n**Carrinho de compras integrado**: Clientes compram sem obstáculos, e você vende mais.\n\n**Painel de controle completo**: Acompanhe vendas, visitas e estoque de um só lugar.\n\nSe está esperando um sinal para empreender, aqui está: **crie sua loja agora e comece a vender com o Site.Set**.\n",
+    "html": "<p>Você já pensou em vender seus produtos pela internet, mas não sabia por onde começar? Com o <strong>Site.Set</strong>, você dá o primeiro passo de forma simples e prática. Nossa plataforma foi feita para empreendedores como você: que querem agilidade, autonomia e resultado.</p>\n<p>Veja por onde começar:</p>\n<p><strong>Criação em minutos</strong>: Escolha um modelo, personalize e publique. Sua loja pronta sem dor de cabeça.</p>\n<p><strong>Domínio próprio</strong>: Dê um toque profissional à sua marca com um domínio personalizado.</p>\n<p><strong>Cadastro de produtos intuitivo</strong>: Adicione fotos, descrições e preços com facilidade. Tudo muito visual.</p>\n<p><strong>Carrinho de compras integrado</strong>: Clientes compram sem obstáculos, e você vende mais.</p>\n<p><strong>Painel de controle completo</strong>: Acompanhe vendas, visitas e estoque de um só lugar.</p>\n<p>Se está esperando um sinal para empreender, aqui está: <strong>crie sua loja agora e comece a vender com o Site.Set</strong>.</p>"
+  },
+  "_id": "terceiro-post.md",
+  "_raw": {
+    "sourceFilePath": "terceiro-post.md",
+    "sourceFileName": "terceiro-post.md",
+    "sourceFileDir": ".",
+    "contentType": "markdown",
+    "flattenedPath": "terceiro-post"
+  },
+  "type": "Post",
+  "slug": "terceiro-post"
+}
