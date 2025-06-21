@@ -1,4 +1,3 @@
-import { time } from "console";
 import { useCallback, useEffect, useState } from "react";
 
 type useClipboardProps = {
