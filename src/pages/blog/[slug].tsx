@@ -13,6 +13,8 @@ import {
 } from '@/components/ui/breadcrumb';
 import { Avatar } from '@/components/avatar';
 import { Markdown } from '@/components/markdown/markdown';
+import { Button } from '@/components/ui/button';
+import { useShare } from '@/hooks';
 
 export default function PostPage() {
   const router = useRouter();
@@ -27,6 +29,14 @@ export default function PostPage() {
   if (!post) return <p className="mt-32 text-gray-300">Post não encontrado!</p>;
 
   const publishedDate = new Date(post?.date).toLocaleDateString('pt-BR');
+
+  const postUrl = `https://site.set/blog/${slug}`;
+
+  const { shareButtons } = useShare({
+    url: postUrl,
+    title: post.title,
+    text: post.description,
+  });
 
   return (
     <main className="mt-32 text-gray-100">
@@ -79,8 +89,29 @@ export default function PostPage() {
               <Markdown content={post.body.raw} />
             </div>
           </article>
+          <aside className="space-y-6">
+            <div className="rounded-lg bg-gray-700">
+              <h2 className="mb-4 text-heading-xs text-gray-100">
+                Compartilhar
+              </h2>
+
+              <div className="space-y-3">
+                {shareButtons.map(({ provider, name, icon: Icon, action }) => (
+                  <Button
+                    key={provider}
+                    onClick={action}
+                    variant="outline"
+                    className="w-full justify-start gap-2"
+                  >
+                    <Icon className="w-4 h-4" />
+                    {name}
+                  </Button>
+                ))}
+              </div>
+            </div>
+          </aside>
         </div>
-      </div>{' '}
+      </div>
     </main>
   );
 }
