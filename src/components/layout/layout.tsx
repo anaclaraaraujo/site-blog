@@ -3,7 +3,6 @@ import { Header } from "./header/header";
 import { Footer } from "./footer/footer";
 import { CallToAction } from "@/templates/landing-page/sections";
 
-
 type LayoutProps = {
   children: React.ReactNode;
 };
@@ -25,6 +24,7 @@ export function Layout({ children }: LayoutProps) {
       className={`${inter.className} ${ptSansCaption.className} relative flex min-h-screen flex-col bg-gray-700`}>
       <Header />
       <main className="flex-1 flex flex-col mt-10 mb-12">{children}</main>
+      <CallToAction />
       <Footer />
     </div>
   );
