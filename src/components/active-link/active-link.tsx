@@ -8,7 +8,7 @@ type ActiveLinkProps = {
   children: React.ReactNode;
 } & LinkProps;
 
-export function ActiveLink({ children, href, ...rest }: ActiveLinkProps) {
+export function ActiveLink({ children, href }: ActiveLinkProps) {
   const linkPath = typeof href === 'string' ? href : href.pathname;
   const pathname = usePathname();
   const isActive =

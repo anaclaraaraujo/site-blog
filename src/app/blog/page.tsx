@@ -1,3 +1,5 @@
+'use client';
+
 import { BlogList } from '@/templates/blog';
 import { allPosts } from 'contentlayer/generated';
 
