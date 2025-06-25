@@ -1,7 +1,7 @@
 import { Inter, PT_Sans_Caption } from "next/font/google";
+import { CallToAction } from "@/templates/landing-page/sections";
 import { Header } from "./header/header";
 import { Footer } from "./footer/footer";
-import { CallToAction } from "@/templates/landing-page/sections";
 
 type LayoutProps = {
   children: React.ReactNode;
