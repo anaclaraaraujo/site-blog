@@ -12,8 +12,8 @@ import {
 } from '@/components/ui/breadcrumb';
 import { Avatar } from '@/components/avatar';
 import { Markdown } from '@/components/markdown/markdown';
-import { Button } from '@/components/ui/button';
-import { useShare } from '@/hooks';
+import PostShare from './components/post-share/post-share';
+
 
 export type PostPageProps = {
   post: Post;
@@ -24,11 +24,6 @@ export function PostPage({ post }: PostPageProps) {
 
   const postUrl = `https://site.set/blog/${post.slug}`;
 
-  const { shareButtons } = useShare({
-    url: postUrl,
-    title: post.title,
-    text: post.description,
-  });
 
   return (
     <main className="mt-32 text-gray-100">
@@ -81,27 +76,11 @@ export function PostPage({ post }: PostPageProps) {
               <Markdown content={post.body.raw} />
             </div>
           </article>
-          <aside className="space-y-6">
-            <div className="rounded-lg bg-gray-700">
-              <h2 className="mb-4 text-heading-xs text-gray-100">
-                Compartilhar
-              </h2>
-
-              <div className="space-y-3">
-                {shareButtons.map(({ provider, name, icon: Icon, action }) => (
-                  <Button
-                    key={provider}
-                    onClick={action}
-                    variant="outline"
-                    className="w-full justify-start gap-2"
-                  >
-                    <Icon className="w-4 h-4" />
-                    {name}
-                  </Button>
-                ))}
-              </div>
-            </div>
-          </aside>
+          <PostShare
+            url={postUrl}
+            title={post?.title}
+            description={post?.description}
+          />
         </div>
       </div>
     </main>

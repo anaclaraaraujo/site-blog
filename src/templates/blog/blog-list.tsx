@@ -6,14 +6,19 @@ import { PostGridCard } from "@/templates/blog/components/post-grid-card/post-gr
 import { Search } from "@/components/search/search";
 import { useSearchParams } from 'next/navigation';
 import { Inbox } from 'lucide-react';
+import { useDebouncedValue } from '@/hooks';
+import Loading from '@/app/loading';
+
 
 export type BlogListProps = {
   posts: Post[];
 };
 
 export function BlogList({ posts }: BlogListProps) {
+
   const searchParams = useSearchParams();
   const query = searchParams?.get('q') ?? '';
+  const [isSearching] = useDebouncedValue(query, 400);
   const pageTitle = query
     ? `Resultados de busca para "${query}"`
     : 'Dicas e estratégias para impulsionar seu negócio';
@@ -41,7 +46,10 @@ export function BlogList({ posts }: BlogListProps) {
           <Search />
         </div>
       </header>
-      {hasPosts && (
+
+      {isSearching ? (
+        <Loading />
+      ) : hasPosts ? (
         <PostGridCard>
           {postList.map((post) => (
             <PostCard
@@ -58,17 +66,15 @@ export function BlogList({ posts }: BlogListProps) {
             />
           ))}
         </PostGridCard>
-      )}
-
-      {!hasPosts && (
+      ) : (
         <div className="container px-8">
           <div className="flex flex-col items-center justify-center gap-8 border-dashed border-2 border-gray-300 p-8 md:p-12 rounded-lg">
             <Inbox className="h-12 w-12 text-cyan-100" />
-
             <p className="text-gray-100 text-center">Nenhum post encontrado.</p>
           </div>
         </div>
       )}
     </div>
   );
+
 }
